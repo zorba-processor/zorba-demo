@@ -1,0 +1,1 @@
+{ "cyclones" : [ { "eventid" : "1001341", "name" : "VANCE-26", "wind_kmh" : 138.9, "category" : 1 }, { "eventid" : "1001343", "name" : "IN-FA-26", "wind_kmh" : 240.7, "category" : 4 }, { "eventid" : "1001345", "name" : "ARNAB-26", "wind_kmh" : 222.2, "category" : 4 }, { "eventid" : "1001346", "name" : "FOUR-26", "wind_kmh" : 120.4, "category" : 1 } ] }
