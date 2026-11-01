@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "zorba": {
+      "type": "stdio",
+      "command": "docker",
+      "args": [
+        "run", "-i", "--rm", "--network", "none",
+        "--mount", "type=bind,src=${CLAUDE_PROJECT_DIR:-.}/data,dst=/data,readonly",
+        "ghcr.io/zorba-processor/zorba:5.0.0-alpha.1",
+        "zorba-mcp", "--root", "/data"
+      ]
+    }
+  }
+}
